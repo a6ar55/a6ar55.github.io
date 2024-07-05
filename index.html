@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adars T S - Backend Developer & Cybersecurity Enthusiast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">a6ar55</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">Toggle Theme</button>
+        </nav>
+    </header>
+
+    <section class="hero parallax-section">
+        <div class="parallax-bg"></div>
+        <div id="particles-js"></div>
+        <div class="container">
+            <h1>Adars T S</h1>
+            <p>Backend Developer & Cybersecurity Enthusiast</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="tagline">Backend Developer & Cybersecurity Enthusiast</p>
+                    <p>I'm an S4 student at Amrita School of Engineering, Amritapuri, passionate about creating robust applications and securing digital landscapes. My journey in tech is driven by curiosity and a commitment to excellence.</p>
+                    <p>With a strong foundation in backend development, cloud services, and DevOps, I specialize in building scalable and secure systems. My experience in CTFs and cybersecurity research has honed my ability to identify and mitigate potential vulnerabilities.</p>
+                    <p>Currently maintaining a CGPA of 8.49, I'm always eager to take on new challenges and push the boundaries of what's possible in tech.</p>
+                    <div class="tech-stack">
+                        <h3>Tech Stack</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>AWS</li>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>Terraform</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="blob-animation">
+                        <path fill="#64ffda" d="M44.7,-76.4C58.8,-69.2,71.8,-59,79.6,-45.8C87.4,-32.6,90,-16.3,89.1,-0.5C88.2,15.3,83.8,30.6,76.5,44.6C69.2,58.6,59,71.3,45.6,78.3C32.1,85.3,16.1,86.6,0.3,86.1C-15.5,85.6,-31,83.3,-45.1,76.9C-59.2,70.5,-71.9,60,-79.8,46.5C-87.7,33,-90.8,16.5,-90.2,0.3C-89.7,-15.9,-85.6,-31.8,-77.7,-45.7C-69.8,-59.6,-58.1,-71.5,-44.3,-78.7C-30.5,-85.9,-15.2,-88.4,0.2,-88.8C15.7,-89.1,31.5,-87.3,44.7,-76.4Z" transform="translate(100 100)" />
+                    </svg>
+                    <img src="assets/a6ar55.jpeg" alt="Adars T S" class="profile-picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Automation: Terraform, Ansible</div>
+                <div class="skill-card">Cloud: AWS, Azure</div>
+                <div class="skill-card">Languages: Python, Bash, PHP, Java, C++, Javascript</div>
+                <div class="skill-card">Backend: Django, PHP, Node JS, Flask</div>
+                <div class="skill-card">DevOps: Docker, Jenkins, Kubernetes, Docker Swarm</div>
+                <div class="skill-card">Cyber Security: XSS, SSTI, CSRF, SSRF, DOS, SQLI, MSF, NMAP</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Web and Cloud Penetration Tester</h3>
+                        <h4>Bi0s - Cyber Security Research Club</h4>
+                        <p class="timeline-date">Feb 2023 – Jun 2024</p>
+                        <ul>
+                            <li>Participated in nationwide and worldwide CTF's</li>
+                            <li>Contributed in creating Vulnerable machine for NCIIPC-AICTE Pentathon 2024 CTF event organised by government of India</li>
+                            <li>Participated in web and cloud penetration testing in various platforms</li>
+                            <li>Actively developing CTF challenges and deploying it in cloud platforms</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add more timeline-item divs for additional experiences -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Let's XSS - CTF Challenge</h3>
+                    <p>Designed an engaging CTF challenge focusing on Reflected XSS exploits, using HTML, CSS, and JavaScript to test participants' hacking skills and understanding of web security vulnerabilities.</p>
+                    <a href="project1.html" class="btn">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>P2P Lending Borrowing Dapp</h3>
+                    <p>Developed using React, Metamask, and Web3 on the frontend, and Solidity, Truffle, and Ganache on the backend. Deployed on the Ethereum Testnet, securely storing loan requests on the blockchain via smart contracts.</p>
+                    <a href="project2.html" class="btn">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Peer to Peer Video call Application</h3>
+                    <p>Developed a peer-to-peer video call application utilizing WebRTC for real-time communication on the backend and React for a responsive frontend interface.</p>
+                    <a href="project3.html" class="btn">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Secure and Scalable VPN Application</h3>
+                    <p>Developed a VPN application - Python for scripting OpenVPN installations, and leveraged AWS services (EC2, Autoscaler, Image Builder, S3) and Terraform to ensure scalable, secure infrastructure across multiple regions.</p>
+                    <a href="project4.html" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <h3>Understanding XSS Attacks</h3>
+                    <p>An in-depth look at Cross-Site Scripting vulnerabilities and how to prevent them...</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Cloud Security Best Practices</h3>
+                    <p>Essential security measures for protecting your cloud infrastructure...</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Intro to Smart Contract Security</h3>
+                    <p>Common vulnerabilities in smart contracts and how to address them...</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Email: adars.nambootiri@gmail.com</p>
+            <p>Phone: 8590634540</p>
+            <a href="https://linkedin.com/in/adars-t-s-95b523255" target="_blank" class="btn">LinkedIn</a>
+            <a href="https://github.com/a6ar55" target="_blank" class="btn">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Adars T S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
